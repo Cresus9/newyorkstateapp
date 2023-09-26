@@ -1,0 +1,84 @@
+#visit-home, #visit-about, #visit-contact, #visit-visit, #visit-search{
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.visit-section{
+    position: relative;
+}
+
+.visit-subdivision {
+    display: flex;
+    gap: 1rem;
+    width: 68%;
+    margin-top: 4rem;
+}
+
+.visit-subdivision a{
+    text-decoration: none; 
+    color: #007BFF;
+}
+
+.visit-first, .visit-second, .visit-third {
+    background-color: #F5F5F5;
+    flex: 1; 
+    height: 15rem;
+    border: 1px solid black; 
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    overflow: scroll;
+}
+.attra-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.visit-section-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.visit-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.visit-services{
+    background-color: #F5F5F5;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    height: 15rem;
+    width: 68%;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    overflow: hidden;
+}
+.visit-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 2rem;
+}
+.visit-programs {
+    background-color: #F5F5F5;
+    margin-top: 2rem;
+    height: 15rem;
+    width: 68%;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    overflow: hidden;
+}
+.diner-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 2rem;
+}
+
+
