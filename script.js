@@ -11,3 +11,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+function verifyEmails() {
+    var email = document.getElementById("email").value;
+    var confirmEmail = document.getElementById("confirm_email").value;
+
+    if (email !== confirmEmail) {
+        alert("Email addresses do not match!");
+        return false;
+    }
+    return true;
+}
