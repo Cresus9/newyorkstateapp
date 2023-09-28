@@ -3,6 +3,7 @@
 .section {
     padding: 2rem;
     background-color: #f9f9f9; 
+    padding-bottom: 2rem;
 }
 
 .main_aside {
@@ -12,6 +13,7 @@
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     overflow: hidden;
+    padding: 2rem;
 }
 
 .main_aside h1, .main_aside h2 {
