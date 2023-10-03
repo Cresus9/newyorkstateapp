@@ -1,12 +1,17 @@
 .section {
+    position: relative;
     background-color: #f9f9f9; 
     padding: 2rem 5%; 
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
+    
 }
 
 .main_aside {
-    max-width: 800px; 
+    /* max-width: 800px;  */
     margin: 0 auto; 
+    width: 40%;
+    left: 2;
+    left: 0%; 
     background-color: #ffffff; 
     padding: 2rem; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -42,3 +47,44 @@
 .main_aside a:hover {
     color: #0056b3; 
 }
+
+.aside-a{
+    position: absolute;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    top: 190px;
+    right: 0px;
+    height: 30rem;
+    width:30%;
+    padding-bottom: 4rem;
+    overflow: scroll;
+
+}
+
+
+.aside-a h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.aside-a img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.aside-a ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.aside-a li {
+    margin-bottom: 0.5rem;
+}
+
+.aside-a strong {
+    color: #007BFF;
+}
+
